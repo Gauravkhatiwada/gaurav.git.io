@@ -9095,6 +9095,8 @@ textarea.form-control {
   background: #3c312e; }
 
 .ftco-footer {
+  margin-top: 100px; /* Reduce top margin */
+  padding-top: 10px; /* Adjust top padding if necessary */
   font-size: 16px;
   background: #000000;
   padding: 7em 0;
@@ -9398,9 +9400,11 @@ textarea.form-control {
       border: 1px solid transparent; }
 
 .contact-section .contact-info p a {
+  padding-bottom: 0;
   color: #1a1a1a; }
 
 .contact-section .box {
+  margin-bottom: 0;
   width: 100%;
   display: block;
   -webkit-border-radius: 4px;
